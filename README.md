@@ -8,6 +8,6 @@ The mediapipe hand landmark model performs precise keypoint localization of 21 3
 ![alt text](https://github.com/AntonioEscamilla/images-in-readMe/blob/master/HandPoseClassifier/mediapipe_hand_landmarks.png)
 
 ## Training Set
-To build a good classifier appropriate pose instances should be collected for training (e.g., “open_hand” and “close_hand”). It’s important that different instances in the dataset cover different camera angles, camera proximity, hand shapes, and pose variations.
+To build a good classifier appropriate pose instances should be collected for training (e.g., “open_hand” and “close_hand”). It’s important that different instances in the dataset cover different camera angles, camera proximity, hand shapes, and pose variations. For this purpose the [Handy Interaction App](https://github.com/AntonioEscamilla/HandyInteraction) runs the mediapipe model on frames comming from a camera connected to the computer and dump predicted pose landmarks to a CSV file.
 
 ![alt text](https://github.com/AntonioEscamilla/images-in-readMe/blob/master/HandPoseClassifier/labels_and_poses.png)
