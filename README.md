@@ -1,6 +1,6 @@
 # Hand Pose Classification Experiments
 
-Machine learning experiments to train different models to classify hand poses. The training datasets are based on the [mediapipe solution](https://google.github.io/mediapipe/solutions/hands.html) along with the [Handy Interaction App](https://github.com/AntonioEscamilla/HandyInteraction) to record the instances for training.
+Machine learning experiments to train different models to classify hand poses. The experiments are based on the [mediapipe solution](https://google.github.io/mediapipe/solutions/hands.html) for hand landmark detection and the [Handy Interaction App](https://github.com/AntonioEscamilla/HandyInteraction) to record the instances for training.
 
 ## Hand Landmark Model
 The mediapipe hand landmark model performs precise keypoint localization of 21 3D hand-knuckle coordinates inside the detected hand regions via regression, that is direct coordinate prediction. The model learns a consistent internal hand pose representation and is robust even to partially visible hands and self-occlusions.
