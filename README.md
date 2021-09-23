@@ -10,4 +10,4 @@ The mediapipe hand landmark model performs precise keypoint localization of 21 3
 ## Training Set
 To build a good classifier appropriate pose instances should be collected for training (e.g., “open_hand” and “close_hand”). It’s important that different instances in the dataset cover different camera angles, camera proximity, hand shapes, and pose variations.
 
-![alt text](image.jpg)
+![alt text](HandPoseClassifier/labels and poses.png)
